@@ -69,14 +69,14 @@
 
             bindings = <
 &kp GRAVE  &kp W          &kp F2         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &mkp MB2                            &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&kp X      &kp N          &kp LEFT_ALT   &kp E                 &kp B                  &kp K_UNDO                          &kp PG_UP   &trans        &trans        &trans        &kp N0        &trans
+&kp X      &kp N          &kp LEFT_ALT   &kp E                 &kp B                  &kp LC(Z)                           &kp PG_UP   &trans        &trans        &trans        &kp N0        &trans
 &kp LC(J)  &kp LC(RS(J))  &kp LC(D)      &kp LC(T)             &kp L                  &kp LC(RS(X))                       &kp LEFT    &kp DOWN      &kp UP        &kp RIGHT     &kp DEL       &kp BSPC
 &kp F      &kp Z          &kp LC(LS(N))  &kp LA(LEFT_BRACKET)  &kp LA(RIGHT_BRACKET)  &kp DELETE     &to 0        &to 1   &trans      &trans        &trans        &trans        &trans        &trans
                           &kp LG(TAB)    &kp LC(LA(G))         &kp SLASH              &kp SPACE      &kp ENTER    &trans  &trans      &trans        &trans        &trans
             >;
 
             sensor-bindings =
-                <&inc_dec_kp LC(PLUS) LC(MINUS)>,
+                <&inc_dec_kp LC(EQUAL) LC(MINUS)>,
                 <&inc_dec_kp PG_UP PG_DN>;
         };
     };
